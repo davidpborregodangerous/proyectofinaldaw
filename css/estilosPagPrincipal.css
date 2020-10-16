@@ -1,7 +1,9 @@
 html{
 	background-image: url("../img/fondo.jpg");
 }
-
+a{
+	text-decoration: none;
+}
 #cuerpo{
 	background-image: url("../img/fondocuerpo.jpg");
 	width: 95%;
@@ -31,9 +33,14 @@ html{
 	width: 194px;
 	height: 29px;
 	background-color: black;
-	border: 1px solid grey;
 	margin: auto;
 	text-align: center;
+}
+#menuPrincipal ul li:hover{
+	background-color: purple;
+	color: white;
+	font-weight: bold;
+	border: 1px solid white;
 }
 #menuPrincipal ul li a{
 	text-decoration: none;
@@ -44,48 +51,80 @@ html{
 	float: left;
 }
 
-/*Banner*/
-#banner {
+/*Banner y botones*/
+.banner {
 	display:inline-block;
 	position:relative;
 	width: 100%;
 }
-#banner img{
+.banner img{
 	width: 100%;
 	margin:auto;
 	display:block;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#banner #comprar{
+
+.banner2 img{
+	margin-top: 30px;
+	width: 95%;
+	justify-content: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+.botoncico{
 	position: absolute;
-	top: 4em;
-	left: 4em;
-	background-color:#8F0005;
-	border-radius:1.5em;
+	top: 3em;
+	background-color: #8F0005;
+	border-radius:1em;
 	color: white;
 	padding: 1em 1.5em;
 	font-size: 16px;
+}
+.botoncico:hover{
+	background-color: darkblue;
+	border: 3px solid white;
+	border-radius:0em;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#comprar{
+	left: 6em;
+}
+#sabermas{
+	left: 20em;
 }
 
-#banner #sabermas{
-	position: absolute;
-	top: 4em;
-	left: 16em;
-	background-color:#8F0005;
-	border-radius:1.5em;
-	color: white;
-	padding: 1em 1.5em;
-	font-size: 16px;
-}
 
 /*Secciones del inicio*/
-#seccion{
+.seccion{
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+	text-align: center;
+}
+.seccion a{
+	color: white;
+}
+.seccion a:hover{
+	text-transform: uppercase;
+	border: 3px solid white;
+}
+.seccion2{
 	color: white;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
 	text-align: center;
-	
 }
 
+/*Roster*/
+#roster{
+	position: center;
+	display: table;
+	margin-left: 60px;
+}
+#roster img{
+	display: block;
+	width: 18%;
+	margin: 6px;
+	float: left;
+}
 /*Footer*/
 footer{
 	background-color:black;
