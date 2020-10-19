@@ -1,5 +1,5 @@
 html{
-	background-image: url("../img/fondo.jpg");
+	background-image: url("../img/fondo.png");
 }
 a{
 	text-decoration: none;
@@ -113,6 +113,56 @@ a{
 	text-align: center;
 }
 
+/*Noticias*/
+#noticias{
+	justify-content: center;
+	display: table;
+	margin-left: 76px;
+}
+div.gallery {
+  margin: 6px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+div.gallery:hover {
+  border: 1px solid blue;
+}
+div.gallery img {
+  width: 100%; 
+}
+div.gallery p{
+	font-weight: bold;
+	font-size: 18px;
+}
+div.gallery .sabermasnoticia{
+	text-decoration: none;
+	font-weight: bold;
+	border: 2px solid grey;
+	background-color: white;
+	font-size: 16px;
+}
+div.gallery .sabermasnoticia:hover{
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid white;
+	background-color: black;
+	border-radius:1em;
+	font-size: 20px;
+}
+div.gallery a{
+	text-decoration: none;
+	color: black;
+}
+div.gallery a:hover{
+	color: white;
+}
+div.desc {
+  padding: 8px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
 /*Roster*/
 #roster{
 	position: center;
@@ -125,8 +175,10 @@ a{
 	margin: 6px;
 	float: left;
 }
+
 /*Footer*/
 footer{
+	margin-top: 20px;
 	background-color:black;
 	color: white;
 }
