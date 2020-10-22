@@ -15,7 +15,6 @@
 			<div class="banner">
 				<img alt="banner" src="gif/baner.gif">
 				<button class="botoncico" id="comprar" type="button">COMPRAR AHORA</button>
-				<button class="botoncico" id="sabermas" type="button">SABER MÁS</button>
 			</div>
 			
 			<!-- Noticias -->

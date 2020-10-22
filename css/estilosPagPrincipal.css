@@ -94,7 +94,6 @@ a{
 	left: 20em;
 }
 
-
 /*Secciones del inicio*/
 .seccion{
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
@@ -111,6 +110,31 @@ a{
 	color: white;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
 	text-align: center;
+	font-size: 40px;
+}
+
+/*Caracteristicas y Modos de juego*/
+#caracteristicas, #modos{
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	justify-content: center;
+}
+#caracteristicas h1, #modos h1{
+	color: lightblue;
+	font-size: 45px;
+}
+#caracteristicas p, #modos p{
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+	font-weight: bold;
+}
+.imagDes{
+	width: 100%;
+	margin: auto;
+	display: block;
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
 
 /*Noticias y Videos*/
