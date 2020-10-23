@@ -21,7 +21,7 @@
 				<br/>
 				
 				<h1>2K SHOWCASE</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
+				<img class="imagDes" src="../img/modos/showcase.png">
 				<p>¡Revive la carrera de la superestrella más grande de WWE en 2K Showcase, 
 				con viñetas de estilo documental muy trabajadas, escenas de vídeo y partidas por objetivos! 
 				¡Juega momentos inolvidables y vive el meteórico ascenso y evolución del gran Undertaker según el testimonio 
@@ -38,11 +38,8 @@
 				<br/>
 				
 				<h1>UNIVERSO</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
-				<p>¡Revive la carrera de la superestrella más grande de WWE en 2K Showcase, 
-				con viñetas de estilo documental muy trabajadas, escenas de vídeo y partidas por objetivos! 
-				¡Juega momentos inolvidables y vive el meteórico ascenso y evolución del gran Undertaker según el testimonio 
-				de leyendas como Triple H, Shawn Michaels, Edge, etc.. y el propio Taker!</p>
+				<img class="imagDes" src="../img/modos/universe.png">
+				<p>Modo Universo renovado, con interfaz más sencilla y similar a entregas anteriores como WWE 2k14</p>
 				<br/>
 				
 				<h1>GM / MODO MÁNAGER</h1>
@@ -56,49 +53,41 @@
 				<br/>
 				
 				<h1>EN LÍNEA</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
+				<img class="imagDes" src="../img/modos/online.png">
 				<p>Juega en línea con tus amigos, realizando cualquier tipo combate visto en Exhibición.</p>
 				<br/>
 				
 				<h1>CREACIÓN</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
+				<img class="imagDes" src="../img/modos/creacion.png">
 				<p>Crea Superestrellas, Arenas, Shows, Campeonatos, Entradas, Victorias y Logos.</p>
 				<br/>
 				
 				<h1>CREACIONES DE LA COMUNIDAD</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
+				<img class="imagDes" src="../img/modos/creacioncomunidad.png">
 				<p>Sube o descarga Superestrellas, Arenas, Shows, Campeonatos, Entradas, Victorias y Logos creados por la comunidad
 				para poder usarlos en el juego.</p>
 				<br/>
 				
 				<h1>ROSTER</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
+				<img class="imagDes" src="../img/modos/roster.png">
 				<p>Aquí podrás cambiar de marca a una Superestrella, crear equipos, cambiar la reacción del público hacia esa superestrella o equipo, 
 				cambiar de campeonatos a Superestrellas o equipos, etc...</p>
 				<br/>
 				
 				<h1>OPCIONES</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
-				<p>¡Revive la carrera de la superestrella más grande de WWE en 2K Showcase, 
-				con viñetas de estilo documental muy trabajadas, escenas de vídeo y partidas por objetivos! 
-				¡Juega momentos inolvidables y vive el meteórico ascenso y evolución del gran Undertaker según el testimonio 
-				de leyendas como Triple H, Shawn Michaels, Edge, etc.. y el propio Taker!</p>
+				<img class="imagDes" src="../img/modos/opciones.png">
+				<p>Puedes cambiar las opciones de jugabilidad como por ejemplo si quieres que haya sangre o que alguien intervenga mientras estas peleando en el ring, 
+				editar el volumen de sonido dela múscia, etc...</p>
 				<br/>
 				
 				<h1>TIENDA</h1>
 				<img class="imagDes" src="../img/modos/exhibicion.png">
-				<p>¡Revive la carrera de la superestrella más grande de WWE en 2K Showcase, 
-				con viñetas de estilo documental muy trabajadas, escenas de vídeo y partidas por objetivos! 
-				¡Juega momentos inolvidables y vive el meteórico ascenso y evolución del gran Undertaker según el testimonio 
-				de leyendas como Triple H, Shawn Michaels, Edge, etc.. y el propio Taker!</p>
+				<p>Acumula puntos jugando para desbloquear: Superstrellas, Campeonatos, Atuendos, Armas para combates de Extreme Rules, etc...</p>
 				<br/>
 				
 				<h1>EXTRAS</h1>
 				<img class="imagDes" src="../img/modos/exhibicion.png">
-				<p>¡Revive la carrera de la superestrella más grande de WWE en 2K Showcase, 
-				con viñetas de estilo documental muy trabajadas, escenas de vídeo y partidas por objetivos! 
-				¡Juega momentos inolvidables y vive el meteórico ascenso y evolución del gran Undertaker según el testimonio 
-				de leyendas como Triple H, Shawn Michaels, Edge, etc.. y el propio Taker!</p>
+				<p>Accede a opciones como la Gramola que puedes cambiar la música de fondo y en Galería podrás todas las otros y vídeos que desbloqueaste en 2K Shocase oen las 2K Torres.</p>
 				<br/>
 			</div>
 			<?php

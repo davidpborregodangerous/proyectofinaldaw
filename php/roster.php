@@ -23,6 +23,7 @@
 				<a href="https://www.wwe.com/superstars/alexa-bliss"><img alt="Bliss" src="../img/roster/AlexaBliss.png"></a>
 				<a href="https://www.wwe.com/superstars/liv-morgan"><img alt="Liv" src="../img/roster/LivMorgan.png"></a>
 				<a href="https://www.wwe.com/superstars/becky-lynch"><img alt="Becky" src="../img/roster/BeckyLynch.png"></a>
+				<a href="https://www.wwe.com/superstars/asuka"><img alt="Asuka" src="../img/roster/Asuka.png"></a>
 				<a href="https://www.wwe.com/superstars/sting"><img alt="Sting" src="../img/roster/Sting.png"></a>
 				<a href="https://www.wwe.com/superstars/hulkhogan"><img alt="Hogan" src="../img/roster/HulkHogan.png"></a>
 				<a href="https://www.wwe.com/superstars/ultimatewarrior"><img alt="Warrior" src="../img/roster/UltimateWarrior.png"></a>
@@ -33,6 +34,15 @@
 				<a href="https://www.wwe.com/superstars/cmpunk"><img alt="Punk" src="../img/roster/CMPunk.png"></a>
 				<a href="https://www.wwe.com/superstars/edge"><img alt="Edge" src="../img/roster/Edge.png"></a>
 				<a href="https://www.wwe.com/superstars/kane"><img alt="Kane" src="../img/roster/Kane.png"></a>
+				<a href="https://www.wwe.com/superstars/stone-cold-steve-austin"><img alt="Stunning" src="../img/roster/SteveAustinstunning.png"></a>
+				<a href="https://www.wwe.com/superstars/undertaker"><img alt="MeanMark" src="../img/roster/MeanMark.png"></a>
+				<a href="https://www.wwe.com/superstars/undertaker"><img alt="TakerRetro" src="../img/roster/UndertakerRetro.png"></a>
+				<a href="https://www.wwe.com/superstars/undertaker"><img alt="Biker" src="../img/roster/UndertakerBiker.png"></a>
+				<a href="https://www.wwe.com/superstars/the-rock"><img alt="Rocky" src="../img/roster/RockAE.png"></a>
+				<a href="https://www.wwe.com/superstars/hulkhogan"><img alt="Hollywood" src="../img/roster/HulkHoganHollywood.png"></a>
+				<a href="https://www.wwe.com/superstars/kane"><img alt="KaneAE" src="../img/roster/KaneAE.png"></a>
+				<img alt="Pronto" src="../img/roster/Soon.png">
+				<img alt="Pronto" src="../img/roster/Soon.png">
 				<img alt="Pronto" src="../img/roster/Soon.png">
 				<img alt="Pronto" src="../img/roster/Soon.png">
 				<img alt="Pronto" src="../img/roster/Soon.png">
