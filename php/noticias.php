@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="../css/estilosPagPrincipal.css">
@@ -18,7 +18,7 @@
 					<img src="../img/noticias/2k21.png" alt="2k21">
 					<div class="desc">
 						<p>CONVIERTETE EN LEYENDA – WWE 2K21 MUY PRONTO</p>
-						<button class="sabermasnoticia" type="button"><a href="noticias/convierteteEnLeyenda.php">>SABER MÁS<</a></button>
+						<button class="sabermasnoticia" type="button"><a href="noticias/wwe2k21noticia.php">>SABER MÁS<</a></button>
 					</div>
 				</div>
 				<div class="gallery">

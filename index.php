@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/estilosPagPrincipal.css">
-		<link href = "img/wwelogo.png" rel="icon" type="image/png">
+		<link href="img/wwelogo.png" rel="icon" type="image/png">
 		<title>WWE 2k21</title>
 	</head>
 	<body>
@@ -14,36 +14,27 @@
 			<!-- Banner -->
 			<div class="banner">
 				<img alt="banner" src="gif/baner.gif">
-				<button class="botoncico" id="comprar" type="button">COMPRAR AHORA</button>
+				<a href="php/comprarreservar.php" class="botoncico" id="comprar" type="button">RESERVAR AHORA</a>
 			</div>
 			
 			<!-- Noticias -->
 			<div class="banner banner2">
-				<img alt="noticias" src="img/bannerNoticias.png">
+				<a href="php/noticias.php"><img alt="noticias" src="img/bannerNoticias.png"></a>
 			</div>
-			<h1 class="seccion"><a href="php/noticias.php">Ver las Últimas Noticias</a></h1>
 			
 			<!-- Videos -->
 			<div class="banner banner2">
-				<img alt="videos" src="img/bannerVideos.png">
+				<a href="php/videos.php"><img alt="videos" src="img/bannerVideos.png"></a>
 			</div>
-			<h1 class="seccion"><a href="php/videos.php">Ver los Ultimos Vídeos</a></h1>
 			
-			<!-- Subcripcion en 2k -->		
+			<!-- Modos de juego -->		
 			<div class="banner banner2">
-				<img alt="suscripcion" src="img/bannerModos.png">
+				<a href="php/modos.php"><img alt="suscripcion" src="img/bannerModos.png"></a>
 			</div>
-			<h1 class="seccion"><a href="php/modos.php">Ver los Modos de Juego</a></h1>
 			
 			<!-- Roster -->
 			<div class="banner banner2">
-				<img alt="roster" src="img/bannerRoster.png">
-			</div>
-			<h1 class="seccion"><a href="php/roster.php">Ver el Roster</a></h1>		
-			
-			<!-- Subcripcion en 2k -->		
-			<div class="banner banner2">
-				<img alt="suscripcion" src="img/loginfondo.png">
+				<a href="php/roster.php"><img alt="roster" src="img/bannerRoster.png"></a>
 			</div>
 			<?php
 			include 'html/footer.html';

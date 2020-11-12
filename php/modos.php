@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="../css/estilosPagPrincipal.css">
@@ -43,7 +44,7 @@
 				<br/>
 				
 				<h1>GM / MODO MÁNAGER</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
+				<img class="imagDes" src="../img/modos/gmmode.png">
 				<p>Regresa el modo más querido y demandado de las primeras entregas.
 				Se comienza escogiendo una de las 4 marcas, seguido por una opción ya sea de simular o participar dentro de un draft, 
 				donde un jugador puede elegir superestrellas de cualquier marca: RAW, SmackDown, NXT y NXT UK. 
@@ -52,7 +53,7 @@
 				entre otras características..</p>
 				<br/>
 				
-				<h1>EN LÍNEA</h1>
+				<h1>MODO EN LÍNEA</h1>
 				<img class="imagDes" src="../img/modos/online.png">
 				<p>Juega en línea con tus amigos, realizando cualquier tipo combate visto en Exhibición.</p>
 				<br/>
@@ -68,7 +69,7 @@
 				para poder usarlos en el juego.</p>
 				<br/>
 				
-				<h1>ROSTER</h1>
+				<h1>PERSONALIZACIÓN DEL ROSTER</h1>
 				<img class="imagDes" src="../img/modos/roster.png">
 				<p>Aquí podrás cambiar de marca a una Superestrella, crear equipos, cambiar la reacción del público hacia esa superestrella o equipo, 
 				cambiar de campeonatos a Superestrellas o equipos, etc...</p>
@@ -81,13 +82,13 @@
 				<br/>
 				
 				<h1>TIENDA</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
+				<img class="imagDes" src="../img/modos/tienda.png">
 				<p>Acumula puntos jugando para desbloquear: Superstrellas, Campeonatos, Atuendos, Armas para combates de Extreme Rules, etc...</p>
 				<br/>
 				
 				<h1>EXTRAS</h1>
-				<img class="imagDes" src="../img/modos/exhibicion.png">
-				<p>Accede a opciones como la Gramola que puedes cambiar la música de fondo y en Galería podrás todas las otros y vídeos que desbloqueaste en 2K Shocase oen las 2K Torres.</p>
+				<img class="imagDes" src="../img/modos/jukebox.png">
+				<p>Accede a opciones como la Gramola que puedes cambiar la música de fondo y en Galería podrás ver todos los vídeos e imágenes que desbloqueaste en 2K Shocase o en las 2K Torres.</p>
 				<br/>
 			</div>
 			<?php
