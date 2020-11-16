@@ -20,14 +20,14 @@
 				<br/>
 				
 				<?php
-					if(isset($_POST['reservar'])){
+					/*if(isset($_POST['reservar'])){
 						if(empty($_POST['nombrecomple'])){
 							$errores[]= "El nombre es obligatorio, mortal";
 						}
 						if (empty($_POST['clave']) || strlen($_POST['clave'])<5) {
 							$errores[]="la contraseña es obligatoria y debe tener más de 5 caracteres, mortal";
 						}
-					}
+					}*/
 					if (isset($_POST['reservar']) && empty($errores)) {
 						if($_POST['formato']=="fisico"){
 							if($_POST['console']=="ps4"){
@@ -107,67 +107,6 @@
 					}else{
 				?>
 					<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post" name="reserva">
-						<!-- <div id="idioma">
-							<h2>IDIOMA:</h2>
-							<select name="idioma">
-								<option>Alemania</option>
-								<option>Argentina</option>
-								<option>Australia</option>
-								<option>Austria</option>
-								<option>Bélgica</option>
-								<option>Belice</option>
-								<option>Brazil</option>
-								<option>Bulgaria</option>
-								<option>Canada</option>
-								<option>Chile</option>
-								<option>Croacia</option>
-								<option>Chipre</option>
-								<option>Dinamarca</option>
-								<option>Eslovaquia</option>
-								<option>Eslovenia</option>
-								<option selected>España</option>
-								<option>Estados Unidos</option>
-								<option>Estonia</option>
-								<option>Finlandia</option>
-								<option>Francia</option>
-								<option>Grecia</option>
-								<option>Hong Kong</option>
-								<option>Hungría</option>
-								<option>India</option>
-								<option>Indonesia</option>
-								<option>Irlanda</option>
-								<option>Isreal</option>
-								<option>Italia</option>
-								<option>Japón</option>
-								<option>Korea</option>
-								<option>Letonia</option>
-								<option>Letonia</option>
-								<option>Lituania</option>
-								<option>Letonia</option>
-								<option>Luxemburgo</option>
-								<option>Malasia</option>
-								<option>Malta</option>
-								<option>México</option>
-								<option>Países Bajos</option>
-								<option>Nueva Zelanda</option>
-								<option>Noruega</option>
-								<option>Perú</option>
-								<option>Polonia</option>
-								<option>Portugal</option>
-								<option>Reino Unido</option>
-								<option>República Checa</option>
-								<option>República Eslocava</option>
-								<option>Rusia</option>
-								<option>Singapur</option>
-								<option>Suecia</option>
-								<option>Suiza</option>
-								<option>Sur África</option>
-								<option>Taiwán</option>
-								<option>Tailandia</option>
-								<option>Ucrania</option>
-							</select>
-						</div>-->
-						
 						<div id="formato">
 							<h2>FORMATO:</h2>
 							<label class="textLabel">FÍSICO<input type="radio" id="fisico" name="formato" value="fisico"></label>
@@ -179,34 +118,41 @@
 							<h2>ELIGE LA PLATAFORMA:</h2>
 							<label class="textLabel" id="labelParaPS4">PS4<input type="radio" id="ps4" name="console" value="ps4"></label>
 							<label class="textLabel" id="labelParaXBOX">XBOX ONE<input type="radio" id="xboxone" name="console" value="xboxone"></label>
-							<span id="labelParaPC"></span>
+							<label class="textLabel" id="labelpc">PC<input type="radio" id="pc" name="console" value="pc"></label>
 						</div>
 						<br/>
 						
 						<div id="version">
 							<h2>VERSIÓN:</h2>
 							<label class="textLabel">ESTÁNDAR<input type="radio" id="standard" name="version" value="standard"></label>
-							
-							<label class="textLabel">COLECCIONISTA<input type="radio" id="collector" name="version" value="collector"></label>
+							<label class="textLabel">EDICIÓN COLECCIONISTA<input type="radio" id="collector" name="version" value="collector"></label>
 						</div>
 						<br/>
-						<p><b>*Contenido de la versión Estándar:</b></p>
-						<ul>
-						  <li>Una copia del videojuego WWE 2k21.</li>
-						  <li>Acelerante.</li>
-						  <li>Cartas de edición limitada para WWE SuperCard, con todas las versiones de Undertaker (solo en las ediciones físicas).</li>
-						</ul>
+						
+						<div id="edEstandar">
+							<p><b>*Contenido de la versión Estándar:</b></p>
+							<ul>
+							  <li>Una copia del videojuego WWE 2k21.</li>
+							  <li>Acelerante.</li>
+							  <li>Cartas de edición limitada para WWE SuperCard, con todas las versiones de Undertaker (solo en las ediciones físicas).</li>
+							</ul>
+						</div>
 						<br/>
-						<p><b>*Contenido de la versión Coleccionista:</b></p>
-						<ul>
-						  <li>Una copia del videojuego WWE 2k21 en su formato de Edición Coleccionista.</li>
-						  <li>Una figura realista de Undertaker.</li>
-						  <li>Acelerante.</li>
-						  <li>Obra coleccionable en acrílico con un autográfo de Undertaker.</li>
-						  <li>Disco con el documental de The Last Ride protagonizada por Taker.</li>
-						  <li>Inicio rápido de Mi JUGADOR de WWE 2k21.</li>
-						  <li>Cartas de edición limitada para WWE SuperCard, con todas las versiones de Undertaker (solo en las ediciones físicas).</li>
-						</ul>
+						
+						<div id="edColeccionista">
+							<p><b>*Contenido de la Edición Coleccionista:</b></p>
+							<ul>
+							  <li>Una copia del videojuego WWE 2k21 en su formato de Edición Coleccionista.</li>
+							  <li>Una figura realista de Undertaker.</li>
+							  <li>Acelerante.</li>
+							  <li>Obra coleccionable en acrílico con un autográfo de Undertaker.</li>
+							  <li>Disco con el documental de The Last Ride protagonizada por Taker.</li>
+							  <li>Inicio rápido de Mi JUGADOR de WWE 2k21.</li>
+							  <li>Cartas de edición limitada para WWE SuperCard, con todas las versiones de Undertaker (solo en las ediciones físicas).</li>
+							</ul>
+						</div>
+						<br/>
+						
 						<div id="tienda">
 							<h2>TIENDA:</h2>
 							<label class="textLabel">GAME<input type="radio" id="game" name="tienda" value="game"></label>
@@ -218,7 +164,21 @@
 						</div>
 						<br/>
 						
-						<div id="tiendaonline">
+						<div id="onlineps4">
+							<h2>TIENDA ONLINE:</h2>
+							<label class="textLabel">PlayStation Store<input type="radio" id="playstore" name="tiendaonline" value="playstore"></label>
+						</div>
+						<br/>
+						
+						<div id="onlinexbox">
+							<h2>TIENDA ONLINE:</h2>
+							<label class="textLabel">Microsoft Store<input type="radio" id="microstore" name="tiendaonline" value="microstore"></label>
+						</div>
+						<br/>
+						
+						<div id="onlinepc">
+							<h2>TIENDA ONLINE:</h2>
+							<label class="textLabel">Steam<input type="radio" id="steam" name="tiendaonline" value="steam"></label>
 						</div>
 						<br/>
 						<input type="submit" name="reservar" value="RESERVAR">

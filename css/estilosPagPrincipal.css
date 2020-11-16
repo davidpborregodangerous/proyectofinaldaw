@@ -215,10 +215,10 @@ div.desc {
 }
 
 /*Reservar*/
-#reserva p{
+#edEstandar p, #edColeccionista p{
 	text-align: center;
 }
-#reserva ul{
+#edEstandar ul, #edColeccionista ul{
 	text-align: left;
 	color: lightgrey;
 	text-transform: uppercase;
@@ -230,6 +230,9 @@ div.desc {
 	color: red;
 	font-size: 40px;
 	font-weight: bold;
+}
+#labelpc, #tienda, #edEstandar, #edColeccionista, #onlineps4, #onlinexbox, #onlinepc{
+	display: none;
 }
 .textLabel{
 	color: white;
@@ -246,7 +249,7 @@ div.desc {
 #labelpc{
 	background-color: grey;
 }
-#idioma, #formato, #consola, #version, #tienda{
+#formato, #consola, #version{
 	text-align: center;
 	justify-content: center;
 	display: block;
@@ -267,7 +270,6 @@ footer{
 }
 #enlacesFooter, #copyrightFooter{
 	width: 90%;
-	border: 1px white solid;
 }
 #enlacesFooter{
 	justify-content: space-around;
