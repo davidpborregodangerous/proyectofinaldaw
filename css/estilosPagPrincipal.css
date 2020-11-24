@@ -1,12 +1,21 @@
 html{
+	box-sizing: border-box;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#fondoCuerpo{
 	background-image: url("../img/fondo.png");
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 a{
 	text-decoration: none;
 }
 #cuerpo{
 	background-image: url("../img/fondocuerpo.jpg");
-	width: 95%;
+	width: 90%;
 	margin-left: auto;
 	margin-right:auto;
 }
@@ -108,6 +117,7 @@ a{
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
 	text-align: center;
 	font-size: 40px;
+	padding-top:10px;
 }
 
 /*Caracteristicas, Modos de juego, Noticia propia y Reserva*/
@@ -121,12 +131,14 @@ a{
 #caracteristicas h1, #modos h1, #noticiaunica h1, #reserva h1{
 	color: lightblue;
 	font-size: 36px;
+	margin-top:10px;
 }
 #caracteristicas p, #modos p, #noticiaunica p, #reserva p{
 	color: white;
 	font-size: 30px;
 	text-align: justify;
 	font-weight: bold;
+	margin-top:10px;
 }
 
 #reservar label{
@@ -254,10 +266,14 @@ div.desc {
 	justify-content: center;
 	display: block;
 }
+#mensajError{
+	color: red;
+	font-size: 30px;
+}
 
 /*Footer*/
-footer{
-	margin-top: 20px;
+#footer{
+	margin-top: 0px;
 	background-color:black;
 	color: white;
 	justify-content: center;
