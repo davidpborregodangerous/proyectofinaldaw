@@ -15,7 +15,7 @@
 				<!-- Banner -->
 				<div class="banner">
 					<img alt="banner" src="gif/baner.gif">
-					<a href="php/comprarreservar.php" class="botoncico" id="comprar" type="button">RESERVAR AHORA</a>
+					<a href="php/comprarreservar.php" class="botoncico" id="comprar">RESERVAR AHORA</a>
 				</div>
 				
 				<!-- Noticias -->

@@ -1,14 +1,10 @@
 html{
 	box-sizing: border-box;
+	background-image: url("../img/fondo.png");
 }
 *{
 	margin: 0;
 	padding: 0;
-}
-#fondoCuerpo{
-	background-image: url("../img/fondo.png");
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
 a{
 	text-decoration: none;
@@ -18,6 +14,7 @@ a{
 	width: 90%;
 	margin-left: auto;
 	margin-right:auto;
+	padding-bottom: 36px;
 }
 
 /*Logo*/
@@ -30,6 +27,7 @@ a{
 
 /*Menu*/
 #menuPrincipal{
+	justify-content: center;
 	background-color: black;
 	width: 100%;
 	height: 30px;
@@ -126,6 +124,7 @@ a{
 	text-align: center;
 	margin: auto;
 	justify-content: center;
+	
 }
 
 #caracteristicas h1, #modos h1, #noticiaunica h1, #reserva h1{
@@ -182,6 +181,10 @@ div.gallery .sabermasnoticia{
 	border: 2px solid grey;
 	background-color: white;
 	font-size: 16px;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-top: 4px;
+	color: black;
 }
 div.gallery .sabermasnoticia:hover{
 	font-weight: bold;
@@ -190,12 +193,8 @@ div.gallery .sabermasnoticia:hover{
 	background-color: black;
 	border-radius:1em;
 	font-size: 20px;
-}
-div.gallery a{
-	text-decoration: none;
-	color: black;
-}
-div.gallery a:hover{
+	padding-left: 8px;
+	padding-right: 8px;
 	color: white;
 }
 div.desc {
@@ -204,15 +203,16 @@ div.desc {
   background-color: lightgrey;
 }
 #videos iframe{
-	width: 353px;
-	height: 197px;
+	width: 338px;
+	height: 186px;
 }
 
 /*Roster*/
 #roster{
-	position: center;
+	justify-content: center;
 	display: table;
-	margin-left: 50px;
+	margin-left:4.7%;
+	margin-right:1%;
 }
 #roster img{
 	display: block;
@@ -270,7 +270,21 @@ div.desc {
 	color: red;
 	font-size: 30px;
 }
-
+#botonReserva{
+	background-color: #8F0005;
+	border-radius:1em;
+	color: white;
+	font-size: 16px;
+	padding: 1em 1.5em;
+}
+#botonReserva:hover{
+	background-color: darkblue;
+	border: 3px solid white;
+	border-radius:0em;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*Footer*/
 #footer{
 	margin-top: 0px;
@@ -279,32 +293,62 @@ div.desc {
 	justify-content: center;
 	font-size: 20px;
 }
+#infSection{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom:12px;
+	color: grey;
+}
+#enlacesFooter, #copyrightFooter{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#enlacesFooter{
+	display: inline;
+	margin-left:10%;
+}
+#enlacesFooter a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#enlacesFooter img{
+	width: 4%;
+	margin: auto;
+	display: inline-block;
+}
+#rrss, #enlaces2k, #politicts2k{
+	margin-bottom:12px;
+}
+#rrss{
+	margin-left:43%;
+
+}
+#enlaces2k{
+	margin-left:38%;
+	margin-right:38%;
+}
+#politicts2k{
+	margin-left:18%;
+	margin-right:18%;
+}
+#rrss div, #enlaces2k div, #politicts2k div{
+	display: inline;
+	margin-left:8px;
+}
+
 #logos{
 	width: 50%;
 	margin: auto;
 	display: block;
 }
-#enlacesFooter, #copyrightFooter{
-	width: 90%;
+#copyrightFooter{
+	justify-content: center;
 }
-#enlacesFooter{
-	justify-content: space-around;
-	display: flex;
-	flex-flow: row wrap;
-	margin-left: 50px;
-}
-
 #copyrightFooter p{
 	text-align: justify;
-	margin-left: 50px;
-}
-#enlacesFooter a{
-	text-decoration: none;
-	color: white;
-	
-}
-#enlacesFooter img{
-	width: 10%;
-	margin: auto;
-	display: block;
+	margin-left:10%;
+	margin-right:10%;
 }
